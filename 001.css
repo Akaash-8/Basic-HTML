@@ -1,0 +1,33 @@
+.header{
+    color: green;
+
+}
+
+.para{
+    font-size: 20px;
+    font-weight: 700;
+}
+.flexbox{
+    display: flex;
+}
+.flexbox div{
+    width: 150px;
+    height: 150px;
+    margin-left: 15px;
+    background-color: teal;
+    border-radius: 10px;
+    text-align: center;
+}
+.gridbox{
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    gap: 10px;
+}
+.gridbox div{
+    width: 150px;
+    height: 100px;
+    background-color: brown;
+    border-radius: 10px;
+    text-align: center;
+}
