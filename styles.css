@@ -1,0 +1,159 @@
+header{
+    width: 100%;
+    height: 60px;
+    border: 1px solid rgb(174, 174, 254);
+    background-color:whitesmoke;
+    justify-content: space-between;
+    padding-top: 20px;
+    display: flex;
+    border-radius: 15px;
+    
+}
+.nav-links i {
+    margin-right: 5px;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    margin-right: 10px;
+
+}
+.customImage{
+    height: 90%;
+    object-fit: cover;
+    margin-left: 15%;
+    border-radius: 15px;
+}
+
+.row1{
+    
+    width: 100%;
+    height: 120px;
+    border-radius: 15px;
+    display: flex;
+   
+}
+
+.row1 div{
+   
+    margin-top: 8px;
+    height: 90%;
+    text-align: center;
+    width: 10%;
+    margin-left: 12px;
+
+}
+.row1 div img{
+    object-fit: cover;
+
+}
+.r2img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+.row2{
+    background-color: aliceblue;
+    height: 250px;
+    width: 100%;
+  
+    margin-top: 4%;
+    border-radius: 15px;
+}
+.row3{
+    margin-top: 3%;
+    color:darkblue;
+    border-radius: 15px;
+    
+}
+ .row3 div div{
+    margin-top: 5px;
+    height: 90%;
+    
+    width: 15%;
+    margin-left: 15px;
+ }
+
+ .row3 div{
+    background-color:rgb(171, 171, 237);
+    border-radius: 15px;
+        width: 100%;
+    height: 120px;
+   
+    display: flex;
+ }
+ .r3img{
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 15px;
+    
+ }
+
+ .row4{
+     
+    height: 350px;
+    width: 100%;
+    border: 1px solid blue;
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+ }
+ .row4 div{
+    width: 23%;
+    margin: 10px;
+
+ }
+ .row4 div div{
+    width: 90%;
+    height: 75%;
+    
+    display: grid;
+    grid-template-columns: repeat(2,48%);
+ }
+ .row4 div div div{
+    text-align: center;
+ }
+ .row4 div div div img{
+    height: 100%;
+    width: 210%;
+    border-radius: 15px;
+ }
+
+ .cart{
+   margin-top: 10%;
+   display: block;
+    text-align: center;
+   
+ }
+
+ .cart img{
+    height: 250 px;
+    width: 250px;
+    border-radius: 15px;
+ }
+
+ .row5{
+    margin-top: 3%;
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+    
+ }
+
+ .row5 img{
+    border-radius: 15px;
+    margin-bottom: 3%;
+ }
+
+ .loginbutton{
+    align-items: center;
+    background-color: orange;
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+ }
