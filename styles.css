@@ -1,14 +1,32 @@
 header{
     width: 100%;
     height: 60px;
-    border: 1px solid rgb(174, 174, 254);
-    background-color:whitesmoke;
+    /*border: 1px solid rgb(174, 174, 254);*/
+    /*background-color:whitesmoke;*/
     justify-content: space-between;
     padding-top: 20px;
     display: flex;
     border-radius: 15px;
     
 }
+.search{
+   border-radius: 15px;
+   border: 1px solid aliceblue;
+}
+.searchb{
+   border-radius: 25px;
+   border: 1px solid rgb(206, 204, 204);
+}
+.sicon{
+   width: 15px;
+   height: 15px;
+   margin-bottom: 5px;
+}
+
+/*body{
+   background: #2A7B9B;
+background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}*/
 .nav-links i {
     margin-right: 5px;
 }
@@ -34,6 +52,8 @@ nav a{
     height: 120px;
     border-radius: 15px;
     display: flex;
+    text-decoration: none;
+    
    
 }
 
@@ -44,13 +64,14 @@ nav a{
     text-align: center;
     width: 10%;
     margin-left: 12px;
+    text-decoration: none;
 
 }
 .row1 div img{
     object-fit: cover;
 
 }
-.r2img{
+/*.r2img{
     height: 100%;
     width: 100%;
     border-radius: 15px;
@@ -62,7 +83,7 @@ nav a{
   
     margin-top: 4%;
     border-radius: 15px;
-}
+}*/
 .row3{
     margin-top: 3%;
     color:darkblue;
@@ -156,4 +177,9 @@ nav a{
     width: 120px;
     height: 40px;
     border-radius: 15px;
+ }
+
+ .productPara{
+    text-align: center;
+    
  }
