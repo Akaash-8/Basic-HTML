@@ -9,14 +9,14 @@ header{
     border-radius: 15px;
     
 }
-.search{
+/* .search{
    border-radius: 15px;
    border: 1px solid aliceblue;
 }
 .searchb{
    border-radius: 25px;
-   border: 1px solid rgb(206, 204, 204);
-}
+   border: 1px solid rgb(206, 204, 204); */
+
 .sicon{
    width: 15px;
    height: 15px;
@@ -99,7 +99,7 @@ nav a{
  }
 
  .row3 div{
-    background-color:rgb(171, 171, 237);
+    /* background-color:rgb(171, 171, 237); */
     border-radius: 15px;
         width: 100%;
     height: 120px;
@@ -183,3 +183,57 @@ nav a{
     text-align: center;
     
  }
+
+
+ .product-list{
+   margin-top: 3%;
+    display: grid;
+   grid-template-columns: repeat(5,20%);
+   margin-left: 25px;
+ }
+ 
+ .product-list img{
+   height: 50%;
+   width: 50%;
+   border-radius: 15px;
+
+ }
+
+ #cartItems{
+   display: grid;
+   grid-template-columns: repeat(5,19%);
+   gap: 20px;
+   margin: 30px;
+ }
+
+ .cart-item {
+  /* padding: 10px; */
+  border-radius: 10px;
+
+  text-align: center;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+}
+
+.cart-item img {
+  width: 100%;
+  height: 50%;
+  border-radius: 15px;
+}
+
+.cart-item h3 {
+  margin: 10px 0 5px 0;
+}
+
+.cart-item p {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.search-container{
+   width: 350px;
+   border-radius: 15px;
+}
+
+/* .search button{
+   border-radius: 15px;
+} */
